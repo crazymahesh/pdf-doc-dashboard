@@ -1,0 +1,2843 @@
+[
+  {
+    "id": "1775361995026-jch5",
+    "timestamp": "2026-04-05T04:06:35.026Z",
+    "type": "success",
+    "message": "Email notification sent",
+    "details": {
+      "to": "vijayprabakar@gmail.com, arjun.sathiyamoorthy@gmail.com",
+      "attachments": 2,
+      "zipNote": " · ZIP attached (8.4 MB)"
+    }
+  },
+  {
+    "id": "1775361912202-hnv1",
+    "timestamp": "2026-04-05T04:05:12.202Z",
+    "type": "success",
+    "message": "ZIP attached (8.4 MB)",
+    "details": {
+      "filename": "PDF-DOC-Files-2026-04-05.zip"
+    }
+  },
+  {
+    "id": "1775361911886-kin1",
+    "timestamp": "2026-04-05T04:05:11.886Z",
+    "type": "info",
+    "message": "Zipping 36 final file(s)",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361911880-k45i",
+    "timestamp": "2026-04-05T04:05:11.880Z",
+    "type": "info",
+    "message": "Sending email notification",
+    "details": {
+      "to": "vijayprabakar@gmail.com,arjun.sathiyamoorthy@gmail.com"
+    }
+  },
+  {
+    "id": "1775361911761-wtnw",
+    "timestamp": "2026-04-05T04:05:11.761Z",
+    "type": "info",
+    "message": "Excel report updated with final status",
+    "details": {}
+  },
+  {
+    "id": "1775361911716-icyw",
+    "timestamp": "2026-04-05T04:05:11.716Z",
+    "type": "success",
+    "message": "SFTP upload complete — 36 uploaded, 0 failed",
+    "details": {
+      "remotePath": "/Output_Converted_Doc/2026-04-05"
+    }
+  },
+  {
+    "id": "1775361911714-m7gl",
+    "timestamp": "2026-04-05T04:05:11.714Z",
+    "type": "success",
+    "message": "[36/36] Uploaded to SFTP: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911709-wveo",
+    "timestamp": "2026-04-05T04:05:11.709Z",
+    "type": "success",
+    "message": "[35/36] Uploaded to SFTP: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).docx"
+    }
+  },
+  {
+    "id": "1775361911702-ersh",
+    "timestamp": "2026-04-05T04:05:11.702Z",
+    "type": "success",
+    "message": "[34/36] Uploaded to SFTP: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911697-ls3f",
+    "timestamp": "2026-04-05T04:05:11.697Z",
+    "type": "success",
+    "message": "[33/36] Uploaded to SFTP: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911689-dq5u",
+    "timestamp": "2026-04-05T04:05:11.689Z",
+    "type": "success",
+    "message": "[32/36] Uploaded to SFTP: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).docx"
+    }
+  },
+  {
+    "id": "1775361911684-js1o",
+    "timestamp": "2026-04-05T04:05:11.684Z",
+    "type": "success",
+    "message": "[31/36] Uploaded to SFTP: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).docx"
+    }
+  },
+  {
+    "id": "1775361911679-ylwh",
+    "timestamp": "2026-04-05T04:05:11.679Z",
+    "type": "success",
+    "message": "[30/36] Uploaded to SFTP: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911672-vncx",
+    "timestamp": "2026-04-05T04:05:11.672Z",
+    "type": "success",
+    "message": "[29/36] Uploaded to SFTP: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911668-0ck8",
+    "timestamp": "2026-04-05T04:05:11.668Z",
+    "type": "success",
+    "message": "[28/36] Uploaded to SFTP: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911663-w0wy",
+    "timestamp": "2026-04-05T04:05:11.663Z",
+    "type": "success",
+    "message": "[27/36] Uploaded to SFTP: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).docx"
+    }
+  },
+  {
+    "id": "1775361911656-5rz8",
+    "timestamp": "2026-04-05T04:05:11.656Z",
+    "type": "success",
+    "message": "[26/36] Uploaded to SFTP: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).docx"
+    }
+  },
+  {
+    "id": "1775361911651-qamb",
+    "timestamp": "2026-04-05T04:05:11.651Z",
+    "type": "success",
+    "message": "[25/36] Uploaded to SFTP: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911646-9dmb",
+    "timestamp": "2026-04-05T04:05:11.646Z",
+    "type": "success",
+    "message": "[24/36] Uploaded to SFTP: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911642-5iyr",
+    "timestamp": "2026-04-05T04:05:11.642Z",
+    "type": "success",
+    "message": "[23/36] Uploaded to SFTP: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).docx"
+    }
+  },
+  {
+    "id": "1775361911636-hxnq",
+    "timestamp": "2026-04-05T04:05:11.636Z",
+    "type": "success",
+    "message": "[22/36] Uploaded to SFTP: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911630-vtst",
+    "timestamp": "2026-04-05T04:05:11.630Z",
+    "type": "success",
+    "message": "[21/36] Uploaded to SFTP: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911622-e3wr",
+    "timestamp": "2026-04-05T04:05:11.622Z",
+    "type": "success",
+    "message": "[20/36] Uploaded to SFTP: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).docx"
+    }
+  },
+  {
+    "id": "1775361911617-jijf",
+    "timestamp": "2026-04-05T04:05:11.617Z",
+    "type": "success",
+    "message": "[19/36] Uploaded to SFTP: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911612-8f6k",
+    "timestamp": "2026-04-05T04:05:11.612Z",
+    "type": "success",
+    "message": "[18/36] Uploaded to SFTP: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911605-azf0",
+    "timestamp": "2026-04-05T04:05:11.605Z",
+    "type": "success",
+    "message": "[17/36] Uploaded to SFTP: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).docx"
+    }
+  },
+  {
+    "id": "1775361911600-ls0u",
+    "timestamp": "2026-04-05T04:05:11.600Z",
+    "type": "success",
+    "message": "[16/36] Uploaded to SFTP: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911596-igmk",
+    "timestamp": "2026-04-05T04:05:11.596Z",
+    "type": "success",
+    "message": "[15/36] Uploaded to SFTP: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911589-oxm4",
+    "timestamp": "2026-04-05T04:05:11.589Z",
+    "type": "success",
+    "message": "[14/36] Uploaded to SFTP: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911584-f8a7",
+    "timestamp": "2026-04-05T04:05:11.584Z",
+    "type": "success",
+    "message": "[13/36] Uploaded to SFTP: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911580-jr59",
+    "timestamp": "2026-04-05T04:05:11.580Z",
+    "type": "success",
+    "message": "[12/36] Uploaded to SFTP: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).docx"
+    }
+  },
+  {
+    "id": "1775361911572-isuk",
+    "timestamp": "2026-04-05T04:05:11.572Z",
+    "type": "success",
+    "message": "[11/36] Uploaded to SFTP: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911566-6gll",
+    "timestamp": "2026-04-05T04:05:11.566Z",
+    "type": "success",
+    "message": "[10/36] Uploaded to SFTP: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).docx"
+    }
+  },
+  {
+    "id": "1775361911562-obyy",
+    "timestamp": "2026-04-05T04:05:11.562Z",
+    "type": "success",
+    "message": "[9/36] Uploaded to SFTP: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911555-cs3c",
+    "timestamp": "2026-04-05T04:05:11.555Z",
+    "type": "success",
+    "message": "[8/36] Uploaded to SFTP: In re the Commission for the Implementation of the Constitution under Article.docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/In re the Commission for the Implementation of the Constitution under Article.docx"
+    }
+  },
+  {
+    "id": "1775361911551-x4zt",
+    "timestamp": "2026-04-05T04:05:11.551Z",
+    "type": "success",
+    "message": "[7/36] Uploaded to SFTP: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911546-sney",
+    "timestamp": "2026-04-05T04:05:11.546Z",
+    "type": "success",
+    "message": "[6/36] Uploaded to SFTP: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911540-bpi5",
+    "timestamp": "2026-04-05T04:05:11.540Z",
+    "type": "success",
+    "message": "[5/36] Uploaded to SFTP: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911530-nsig",
+    "timestamp": "2026-04-05T04:05:11.530Z",
+    "type": "success",
+    "message": "[4/36] Uploaded to SFTP: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911524-jw5h",
+    "timestamp": "2026-04-05T04:05:11.524Z",
+    "type": "success",
+    "message": "[3/36] Uploaded to SFTP: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911517-om2s",
+    "timestamp": "2026-04-05T04:05:11.517Z",
+    "type": "success",
+    "message": "[2/36] Uploaded to SFTP: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911511-zqz0",
+    "timestamp": "2026-04-05T04:05:11.511Z",
+    "type": "success",
+    "message": "[1/36] Uploaded to SFTP: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).docx",
+    "details": {
+      "remoteDest": "/Output_Converted_Doc/2026-04-05/Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361911498-4glo",
+    "timestamp": "2026-04-05T04:05:11.498Z",
+    "type": "success",
+    "message": "SFTP connected for upload: localhost",
+    "details": {
+      "remotePath": "/Output_Converted_Doc/2026-04-05"
+    }
+  },
+  {
+    "id": "1775361911464-wkn5",
+    "timestamp": "2026-04-05T04:05:11.464Z",
+    "type": "info",
+    "message": "Starting SFTP upload → /Output_Converted_Doc/2026-04-05",
+    "details": {
+      "host": "localhost",
+      "remotePath": "/Output_Converted_Doc/2026-04-05"
+    }
+  },
+  {
+    "id": "1775361911463-0gl5",
+    "timestamp": "2026-04-05T04:05:11.463Z",
+    "type": "success",
+    "message": "Local move complete — 36/36 files moved to final_conversion",
+    "details": {}
+  },
+  {
+    "id": "1775361911461-6eb3",
+    "timestamp": "2026-04-05T04:05:11.461Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911454-mju1",
+    "timestamp": "2026-04-05T04:05:11.454Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911452-67j9",
+    "timestamp": "2026-04-05T04:05:11.452Z",
+    "type": "success",
+    "message": "Moved to final_conversion: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911449-2074",
+    "timestamp": "2026-04-05T04:05:11.449Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911447-hr30",
+    "timestamp": "2026-04-05T04:05:11.447Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911445-3y29",
+    "timestamp": "2026-04-05T04:05:11.445Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911442-ohk8",
+    "timestamp": "2026-04-05T04:05:11.442Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911437-5sdb",
+    "timestamp": "2026-04-05T04:05:11.437Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911435-q22s",
+    "timestamp": "2026-04-05T04:05:11.435Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911433-3krz",
+    "timestamp": "2026-04-05T04:05:11.433Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911430-97g6",
+    "timestamp": "2026-04-05T04:05:11.430Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911428-cmon",
+    "timestamp": "2026-04-05T04:05:11.428Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911425-xkzg",
+    "timestamp": "2026-04-05T04:05:11.425Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911421-9zcx",
+    "timestamp": "2026-04-05T04:05:11.421Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911417-rc4z",
+    "timestamp": "2026-04-05T04:05:11.417Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911415-y9by",
+    "timestamp": "2026-04-05T04:05:11.415Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911412-qiol",
+    "timestamp": "2026-04-05T04:05:11.412Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911409-rzit",
+    "timestamp": "2026-04-05T04:05:11.409Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911405-p6vc",
+    "timestamp": "2026-04-05T04:05:11.405Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911403-ykbw",
+    "timestamp": "2026-04-05T04:05:11.403Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911400-nvto",
+    "timestamp": "2026-04-05T04:05:11.400Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911398-bn0d",
+    "timestamp": "2026-04-05T04:05:11.398Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911395-645b",
+    "timestamp": "2026-04-05T04:05:11.395Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911393-7n4d",
+    "timestamp": "2026-04-05T04:05:11.393Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911388-ebq9",
+    "timestamp": "2026-04-05T04:05:11.388Z",
+    "type": "success",
+    "message": "Moved to final_conversion: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911384-9ko4",
+    "timestamp": "2026-04-05T04:05:11.384Z",
+    "type": "success",
+    "message": "Moved to final_conversion: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911382-hlaj",
+    "timestamp": "2026-04-05T04:05:11.382Z",
+    "type": "success",
+    "message": "Moved to final_conversion: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911379-830c",
+    "timestamp": "2026-04-05T04:05:11.379Z",
+    "type": "success",
+    "message": "Moved to final_conversion: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911376-vmw8",
+    "timestamp": "2026-04-05T04:05:11.376Z",
+    "type": "success",
+    "message": "Moved to final_conversion: In re the Commission for the Implementation of the Constitution under Article.docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911372-vizs",
+    "timestamp": "2026-04-05T04:05:11.372Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911369-1ch5",
+    "timestamp": "2026-04-05T04:05:11.369Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911366-dwww",
+    "timestamp": "2026-04-05T04:05:11.366Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911361-t2a4",
+    "timestamp": "2026-04-05T04:05:11.361Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911358-9lee",
+    "timestamp": "2026-04-05T04:05:11.358Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911354-2evw",
+    "timestamp": "2026-04-05T04:05:11.354Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911351-oi67",
+    "timestamp": "2026-04-05T04:05:11.351Z",
+    "type": "success",
+    "message": "Moved to final_conversion: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361911348-2lep",
+    "timestamp": "2026-04-05T04:05:11.348Z",
+    "type": "info",
+    "message": "Moving 36 file(s) to final_conversion",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361911044-2fve",
+    "timestamp": "2026-04-05T04:05:11.044Z",
+    "type": "info",
+    "message": "Manual trigger: Move to Final",
+    "details": {
+      "script": "move-to-final.js"
+    }
+  },
+  {
+    "id": "1775361902604-ilx4",
+    "timestamp": "2026-04-05T04:05:02.604Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902601-gsjb",
+    "timestamp": "2026-04-05T04:05:02.601Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902599-t1xq",
+    "timestamp": "2026-04-05T04:05:02.599Z",
+    "type": "info",
+    "message": "After-ligature file placed: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).docx"
+    }
+  },
+  {
+    "id": "1775361902597-yfgp",
+    "timestamp": "2026-04-05T04:05:02.597Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902594-iv6y",
+    "timestamp": "2026-04-05T04:05:02.594Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902592-7qmn",
+    "timestamp": "2026-04-05T04:05:02.592Z",
+    "type": "info",
+    "message": "After-ligature file placed: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902591-4q04",
+    "timestamp": "2026-04-05T04:05:02.591Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902589-ubyy",
+    "timestamp": "2026-04-05T04:05:02.589Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902587-3vs6",
+    "timestamp": "2026-04-05T04:05:02.587Z",
+    "type": "info",
+    "message": "After-ligature file placed: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902586-kp0i",
+    "timestamp": "2026-04-05T04:05:02.586Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902584-hghs",
+    "timestamp": "2026-04-05T04:05:02.584Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902581-lqn8",
+    "timestamp": "2026-04-05T04:05:02.581Z",
+    "type": "info",
+    "message": "After-ligature file placed: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902579-j1ks",
+    "timestamp": "2026-04-05T04:05:02.579Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902577-ltgq",
+    "timestamp": "2026-04-05T04:05:02.577Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902576-2h9d",
+    "timestamp": "2026-04-05T04:05:02.576Z",
+    "type": "info",
+    "message": "After-ligature file placed: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).docx"
+    }
+  },
+  {
+    "id": "1775361902574-1zd2",
+    "timestamp": "2026-04-05T04:05:02.574Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902572-fnoq",
+    "timestamp": "2026-04-05T04:05:02.572Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902570-k3wo",
+    "timestamp": "2026-04-05T04:05:02.570Z",
+    "type": "info",
+    "message": "After-ligature file placed: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).docx"
+    }
+  },
+  {
+    "id": "1775361902568-6qnp",
+    "timestamp": "2026-04-05T04:05:02.568Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902566-ylp0",
+    "timestamp": "2026-04-05T04:05:02.566Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902564-z0vx",
+    "timestamp": "2026-04-05T04:05:02.564Z",
+    "type": "info",
+    "message": "After-ligature file placed: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902562-sjnh",
+    "timestamp": "2026-04-05T04:05:02.562Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902560-9j7s",
+    "timestamp": "2026-04-05T04:05:02.560Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902558-1krh",
+    "timestamp": "2026-04-05T04:05:02.558Z",
+    "type": "info",
+    "message": "After-ligature file placed: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902557-fagh",
+    "timestamp": "2026-04-05T04:05:02.557Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902554-o8h3",
+    "timestamp": "2026-04-05T04:05:02.554Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902552-4dx5",
+    "timestamp": "2026-04-05T04:05:02.552Z",
+    "type": "info",
+    "message": "After-ligature file placed: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902550-qdjp",
+    "timestamp": "2026-04-05T04:05:02.550Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902546-gg7p",
+    "timestamp": "2026-04-05T04:05:02.546Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902544-ampb",
+    "timestamp": "2026-04-05T04:05:02.544Z",
+    "type": "info",
+    "message": "After-ligature file placed: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).docx"
+    }
+  },
+  {
+    "id": "1775361902543-vfnu",
+    "timestamp": "2026-04-05T04:05:02.543Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902539-byd9",
+    "timestamp": "2026-04-05T04:05:02.539Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902538-uqif",
+    "timestamp": "2026-04-05T04:05:02.538Z",
+    "type": "info",
+    "message": "After-ligature file placed: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).docx"
+    }
+  },
+  {
+    "id": "1775361902536-3wtr",
+    "timestamp": "2026-04-05T04:05:02.536Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902534-y5a9",
+    "timestamp": "2026-04-05T04:05:02.534Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902532-7krl",
+    "timestamp": "2026-04-05T04:05:02.532Z",
+    "type": "info",
+    "message": "After-ligature file placed: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902530-eaw7",
+    "timestamp": "2026-04-05T04:05:02.530Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902528-zsmp",
+    "timestamp": "2026-04-05T04:05:02.528Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902527-05ko",
+    "timestamp": "2026-04-05T04:05:02.527Z",
+    "type": "info",
+    "message": "After-ligature file placed: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902525-5qxf",
+    "timestamp": "2026-04-05T04:05:02.525Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902523-8nzk",
+    "timestamp": "2026-04-05T04:05:02.523Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902522-4u5t",
+    "timestamp": "2026-04-05T04:05:02.522Z",
+    "type": "info",
+    "message": "After-ligature file placed: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).docx"
+    }
+  },
+  {
+    "id": "1775361902520-5saw",
+    "timestamp": "2026-04-05T04:05:02.520Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902518-vsl7",
+    "timestamp": "2026-04-05T04:05:02.518Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902516-py1u",
+    "timestamp": "2026-04-05T04:05:02.516Z",
+    "type": "info",
+    "message": "After-ligature file placed: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902514-mlrz",
+    "timestamp": "2026-04-05T04:05:02.514Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902512-bwep",
+    "timestamp": "2026-04-05T04:05:02.512Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902510-5iy5",
+    "timestamp": "2026-04-05T04:05:02.510Z",
+    "type": "info",
+    "message": "After-ligature file placed: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902509-iflo",
+    "timestamp": "2026-04-05T04:05:02.509Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902507-8t8m",
+    "timestamp": "2026-04-05T04:05:02.507Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902506-ljep",
+    "timestamp": "2026-04-05T04:05:02.506Z",
+    "type": "info",
+    "message": "After-ligature file placed: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).docx"
+    }
+  },
+  {
+    "id": "1775361902504-7fof",
+    "timestamp": "2026-04-05T04:05:02.504Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902502-6nx4",
+    "timestamp": "2026-04-05T04:05:02.502Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902501-ibdm",
+    "timestamp": "2026-04-05T04:05:02.501Z",
+    "type": "info",
+    "message": "After-ligature file placed: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902499-yhoe",
+    "timestamp": "2026-04-05T04:05:02.499Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902496-iffs",
+    "timestamp": "2026-04-05T04:05:02.496Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902495-bbis",
+    "timestamp": "2026-04-05T04:05:02.495Z",
+    "type": "info",
+    "message": "After-ligature file placed: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902494-2mgx",
+    "timestamp": "2026-04-05T04:05:02.494Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902492-j5b6",
+    "timestamp": "2026-04-05T04:05:02.492Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902491-41of",
+    "timestamp": "2026-04-05T04:05:02.491Z",
+    "type": "info",
+    "message": "After-ligature file placed: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).docx"
+    }
+  },
+  {
+    "id": "1775361902489-pd6g",
+    "timestamp": "2026-04-05T04:05:02.489Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902487-9kkl",
+    "timestamp": "2026-04-05T04:05:02.487Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902486-38c5",
+    "timestamp": "2026-04-05T04:05:02.486Z",
+    "type": "info",
+    "message": "After-ligature file placed: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902484-gyep",
+    "timestamp": "2026-04-05T04:05:02.484Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902482-q2nb",
+    "timestamp": "2026-04-05T04:05:02.482Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902480-dhym",
+    "timestamp": "2026-04-05T04:05:02.480Z",
+    "type": "info",
+    "message": "After-ligature file placed: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902478-ztm2",
+    "timestamp": "2026-04-05T04:05:02.478Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902476-8zz2",
+    "timestamp": "2026-04-05T04:05:02.476Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902475-1m1h",
+    "timestamp": "2026-04-05T04:05:02.475Z",
+    "type": "info",
+    "message": "After-ligature file placed: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902474-fi61",
+    "timestamp": "2026-04-05T04:05:02.474Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902471-m4yv",
+    "timestamp": "2026-04-05T04:05:02.471Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902470-qqvh",
+    "timestamp": "2026-04-05T04:05:02.470Z",
+    "type": "info",
+    "message": "After-ligature file placed: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902469-pkhi",
+    "timestamp": "2026-04-05T04:05:02.469Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902467-9d7u",
+    "timestamp": "2026-04-05T04:05:02.467Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902465-ewwl",
+    "timestamp": "2026-04-05T04:05:02.465Z",
+    "type": "info",
+    "message": "After-ligature file placed: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).docx"
+    }
+  },
+  {
+    "id": "1775361902463-hr3q",
+    "timestamp": "2026-04-05T04:05:02.463Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902461-33oo",
+    "timestamp": "2026-04-05T04:05:02.461Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902460-wp6b",
+    "timestamp": "2026-04-05T04:05:02.460Z",
+    "type": "info",
+    "message": "After-ligature file placed: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902458-ta92",
+    "timestamp": "2026-04-05T04:05:02.458Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902457-dbox",
+    "timestamp": "2026-04-05T04:05:02.457Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902456-1a6x",
+    "timestamp": "2026-04-05T04:05:02.456Z",
+    "type": "info",
+    "message": "After-ligature file placed: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).docx"
+    }
+  },
+  {
+    "id": "1775361902454-1cdi",
+    "timestamp": "2026-04-05T04:05:02.454Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902452-xecs",
+    "timestamp": "2026-04-05T04:05:02.452Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902451-lygi",
+    "timestamp": "2026-04-05T04:05:02.451Z",
+    "type": "info",
+    "message": "After-ligature file placed: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902449-mx1f",
+    "timestamp": "2026-04-05T04:05:02.449Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902445-xif2",
+    "timestamp": "2026-04-05T04:05:02.445Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: In re the Commission for the Implementation of the Constitution under Article.docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902444-g869",
+    "timestamp": "2026-04-05T04:05:02.444Z",
+    "type": "info",
+    "message": "After-ligature file placed: In re the Commission for the Implementation of the Constitution under Article.docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\In re the Commission for the Implementation of the Constitution under Article.docx"
+    }
+  },
+  {
+    "id": "1775361902442-23qp",
+    "timestamp": "2026-04-05T04:05:02.442Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902441-9o9r",
+    "timestamp": "2026-04-05T04:05:02.441Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902439-tx9t",
+    "timestamp": "2026-04-05T04:05:02.439Z",
+    "type": "info",
+    "message": "After-ligature file placed: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902438-wmc8",
+    "timestamp": "2026-04-05T04:05:02.438Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902436-r1yk",
+    "timestamp": "2026-04-05T04:05:02.436Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902435-5op6",
+    "timestamp": "2026-04-05T04:05:02.435Z",
+    "type": "info",
+    "message": "After-ligature file placed: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902433-w6m4",
+    "timestamp": "2026-04-05T04:05:02.433Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902430-8emy",
+    "timestamp": "2026-04-05T04:05:02.430Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902428-2hk5",
+    "timestamp": "2026-04-05T04:05:02.428Z",
+    "type": "info",
+    "message": "After-ligature file placed: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902427-ybwm",
+    "timestamp": "2026-04-05T04:05:02.427Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902425-88bq",
+    "timestamp": "2026-04-05T04:05:02.425Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902424-gryh",
+    "timestamp": "2026-04-05T04:05:02.424Z",
+    "type": "info",
+    "message": "After-ligature file placed: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902422-7gw8",
+    "timestamp": "2026-04-05T04:05:02.422Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902420-fz2z",
+    "timestamp": "2026-04-05T04:05:02.420Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902418-v9ol",
+    "timestamp": "2026-04-05T04:05:02.418Z",
+    "type": "info",
+    "message": "After-ligature file placed: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902416-txs4",
+    "timestamp": "2026-04-05T04:05:02.416Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902414-1ebr",
+    "timestamp": "2026-04-05T04:05:02.414Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902412-0hr8",
+    "timestamp": "2026-04-05T04:05:02.412Z",
+    "type": "info",
+    "message": "After-ligature file placed: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902411-wexr",
+    "timestamp": "2026-04-05T04:05:02.411Z",
+    "type": "success",
+    "message": "After Ligature Fix stage complete — 36 file(s) ready",
+    "details": {
+      "count": 36
+    }
+  },
+  {
+    "id": "1775361902408-cafq",
+    "timestamp": "2026-04-05T04:05:02.408Z",
+    "type": "success",
+    "message": "After-ligature fix recorded: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).docx",
+    "details": {}
+  },
+  {
+    "id": "1775361902406-vxxq",
+    "timestamp": "2026-04-05T04:05:02.406Z",
+    "type": "info",
+    "message": "After-ligature file placed: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).docx",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix\\Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).docx"
+    }
+  },
+  {
+    "id": "1775361902395-ej0o",
+    "timestamp": "2026-04-05T04:05:02.395Z",
+    "type": "info",
+    "message": "After-Ligature-Fix watcher started",
+    "details": {
+      "watchDir": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\afterLigatureFix"
+    }
+  },
+  {
+    "id": "1775361902298-eetr",
+    "timestamp": "2026-04-05T04:05:02.298Z",
+    "type": "info",
+    "message": "Manual trigger: After-Ligature-Fix Watcher",
+    "details": {
+      "script": "watch-after-ligature.js"
+    }
+  },
+  {
+    "id": "1775361869826-xvdz",
+    "timestamp": "2026-04-05T04:04:29.826Z",
+    "type": "success",
+    "message": "Admin split complete — 38 file(s) distributed (page spread: 1)",
+    "details": {
+      "buckets": [
+        {
+          "folder": "admin_1",
+          "files": 13,
+          "pages": 169
+        },
+        {
+          "folder": "admin_2",
+          "files": 12,
+          "pages": 168
+        },
+        {
+          "folder": "admin_3",
+          "files": 13,
+          "pages": 169
+        }
+      ]
+    }
+  },
+  {
+    "id": "1775361869824-7g85",
+    "timestamp": "2026-04-05T04:04:29.824Z",
+    "type": "success",
+    "message": "Split → admin_3: In re the Commission for the Implementation of the Constitution under Article.pdf",
+    "details": {
+      "pages": 2,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869822-fpkp",
+    "timestamp": "2026-04-05T04:04:29.822Z",
+    "type": "success",
+    "message": "Split → admin_3: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).pdf",
+    "details": {
+      "pages": 3,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869820-185x",
+    "timestamp": "2026-04-05T04:04:29.820Z",
+    "type": "success",
+    "message": "Split → admin_3: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869815-xgir",
+    "timestamp": "2026-04-05T04:04:29.815Z",
+    "type": "success",
+    "message": "Split → admin_3: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869811-h2pu",
+    "timestamp": "2026-04-05T04:04:29.811Z",
+    "type": "success",
+    "message": "Split → admin_3: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869810-bvv4",
+    "timestamp": "2026-04-05T04:04:29.810Z",
+    "type": "success",
+    "message": "Split → admin_3: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869807-l679",
+    "timestamp": "2026-04-05T04:04:29.807Z",
+    "type": "success",
+    "message": "Split → admin_3: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 6,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869806-hw3y",
+    "timestamp": "2026-04-05T04:04:29.806Z",
+    "type": "success",
+    "message": "Split → admin_3: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).pdf",
+    "details": {
+      "pages": 9,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869804-f2dd",
+    "timestamp": "2026-04-05T04:04:29.804Z",
+    "type": "success",
+    "message": "Split → admin_3: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).pdf",
+    "details": {
+      "pages": 10,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869802-t8f2",
+    "timestamp": "2026-04-05T04:04:29.802Z",
+    "type": "success",
+    "message": "Split → admin_3: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).pdf",
+    "details": {
+      "pages": 12,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869800-p5ir",
+    "timestamp": "2026-04-05T04:04:29.800Z",
+    "type": "success",
+    "message": "Split → admin_3: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).pdf",
+    "details": {
+      "pages": 25,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869796-2ms3",
+    "timestamp": "2026-04-05T04:04:29.796Z",
+    "type": "success",
+    "message": "Split → admin_3: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).pdf",
+    "details": {
+      "pages": 39,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869793-t9y5",
+    "timestamp": "2026-04-05T04:04:29.793Z",
+    "type": "success",
+    "message": "Split → admin_3: In the Matter of the Principle of Gender Representation in the National Assembly and the Senate (Advisory Opinions Application 2of2012) 2012KESC5(KLR) (Constitutional and Human Rights) (11December2012) (Adv.pdf",
+    "details": {
+      "pages": 46,
+      "adminFolder": "admin_3"
+    }
+  },
+  {
+    "id": "1775361869791-1gj8",
+    "timestamp": "2026-04-05T04:04:29.791Z",
+    "type": "success",
+    "message": "Split → admin_2: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).pdf",
+    "details": {
+      "pages": 3,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869789-jquk",
+    "timestamp": "2026-04-05T04:04:29.789Z",
+    "type": "success",
+    "message": "Split → admin_2: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869787-up2r",
+    "timestamp": "2026-04-05T04:04:29.787Z",
+    "type": "success",
+    "message": "Split → admin_2: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869785-bixr",
+    "timestamp": "2026-04-05T04:04:29.785Z",
+    "type": "success",
+    "message": "Split → admin_2: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).pdf",
+    "details": {
+      "pages": 5,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869783-t739",
+    "timestamp": "2026-04-05T04:04:29.783Z",
+    "type": "success",
+    "message": "Split → admin_2: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869780-p1kv",
+    "timestamp": "2026-04-05T04:04:29.780Z",
+    "type": "success",
+    "message": "Split → admin_2: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869777-2d01",
+    "timestamp": "2026-04-05T04:04:29.777Z",
+    "type": "success",
+    "message": "Split → admin_2: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 10,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869776-95os",
+    "timestamp": "2026-04-05T04:04:29.776Z",
+    "type": "success",
+    "message": "Split → admin_2: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).pdf",
+    "details": {
+      "pages": 11,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869774-xekj",
+    "timestamp": "2026-04-05T04:04:29.774Z",
+    "type": "success",
+    "message": "Split → admin_2: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).pdf",
+    "details": {
+      "pages": 14,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869772-e7db",
+    "timestamp": "2026-04-05T04:04:29.772Z",
+    "type": "success",
+    "message": "Split → admin_2: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).pdf",
+    "details": {
+      "pages": 20,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869770-rwg3",
+    "timestamp": "2026-04-05T04:04:29.770Z",
+    "type": "success",
+    "message": "Split → admin_2: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).pdf",
+    "details": {
+      "pages": 27,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869768-tjwy",
+    "timestamp": "2026-04-05T04:04:29.768Z",
+    "type": "success",
+    "message": "Split → admin_2: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).pdf",
+    "details": {
+      "pages": 60,
+      "adminFolder": "admin_2"
+    }
+  },
+  {
+    "id": "1775361869766-wfsp",
+    "timestamp": "2026-04-05T04:04:29.766Z",
+    "type": "success",
+    "message": "Split → admin_1: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).pdf",
+    "details": {
+      "pages": 2,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869762-zmme",
+    "timestamp": "2026-04-05T04:04:29.762Z",
+    "type": "success",
+    "message": "Split → admin_1: Baraza v Tribunal Investigating the Conduct of Hon Deputy Chief Justice  VicePresident of the Supreme Court of the Republic of Kenya (Petition 7of2012) 2012KESC3(KLR) (17October2012) (Ruling).pdf",
+    "details": {
+      "pages": 3,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869760-nobm",
+    "timestamp": "2026-04-05T04:04:29.760Z",
+    "type": "success",
+    "message": "Split → admin_1: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869758-1wut",
+    "timestamp": "2026-04-05T04:04:29.758Z",
+    "type": "success",
+    "message": "Split → admin_1: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869756-3t91",
+    "timestamp": "2026-04-05T04:04:29.756Z",
+    "type": "success",
+    "message": "Split → admin_1: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869754-3o9p",
+    "timestamp": "2026-04-05T04:04:29.754Z",
+    "type": "success",
+    "message": "Split → admin_1: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869752-4a1z",
+    "timestamp": "2026-04-05T04:04:29.752Z",
+    "type": "success",
+    "message": "Split → admin_1: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).pdf",
+    "details": {
+      "pages": 6,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869750-jkum",
+    "timestamp": "2026-04-05T04:04:29.750Z",
+    "type": "success",
+    "message": "Split → admin_1: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).pdf",
+    "details": {
+      "pages": 7,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869745-955c",
+    "timestamp": "2026-04-05T04:04:29.745Z",
+    "type": "success",
+    "message": "Split → admin_1: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).pdf",
+    "details": {
+      "pages": 12,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869743-qwo4",
+    "timestamp": "2026-04-05T04:04:29.743Z",
+    "type": "success",
+    "message": "Split → admin_1: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).pdf",
+    "details": {
+      "pages": 12,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869742-oi2v",
+    "timestamp": "2026-04-05T04:04:29.742Z",
+    "type": "success",
+    "message": "Split → admin_1: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).pdf",
+    "details": {
+      "pages": 17,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869739-p1zl",
+    "timestamp": "2026-04-05T04:04:29.739Z",
+    "type": "success",
+    "message": "Split → admin_1: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).pdf",
+    "details": {
+      "pages": 26,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869737-b65t",
+    "timestamp": "2026-04-05T04:04:29.737Z",
+    "type": "success",
+    "message": "Split → admin_1: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).pdf",
+    "details": {
+      "pages": 66,
+      "adminFolder": "admin_1"
+    }
+  },
+  {
+    "id": "1775361869729-qaqq",
+    "timestamp": "2026-04-05T04:04:29.729Z",
+    "type": "info",
+    "message": "Admin folder split started",
+    "details": {
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "id": "1775361869643-ks6j",
+    "timestamp": "2026-04-05T04:04:29.643Z",
+    "type": "info",
+    "message": "Manual trigger: Split Admin Folders",
+    "details": {
+      "script": "split-admin-folders.js"
+    }
+  },
+  {
+    "id": "1775361848682-tb8r",
+    "timestamp": "2026-04-05T04:04:08.682Z",
+    "type": "success",
+    "message": "Download & classification complete",
+    "details": {
+      "total": 38,
+      "regular": 38,
+      "scanned": 0,
+      "totalPages": 506,
+      "errors": 0
+    }
+  },
+  {
+    "id": "1775361848681-3eht",
+    "timestamp": "2026-04-05T04:04:08.681Z",
+    "type": "success",
+    "message": "Excel report generated",
+    "details": {
+      "path": "C:\\PDF-DOC-Dashboard\\dashboard\\Downloads\\2026-04-05\\reports\\PDF-DOC-Report-2026-04-05.xlsx"
+    }
+  },
+  {
+    "id": "1775361848633-lepl",
+    "timestamp": "2026-04-05T04:04:08.633Z",
+    "type": "success",
+    "message": "[38/38] Classified → output-with-datetime: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 220,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848615-cbvs",
+    "timestamp": "2026-04-05T04:04:08.615Z",
+    "type": "success",
+    "message": "[37/38] Classified → output-with-datetime: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).pdf",
+    "details": {
+      "pages": 25,
+      "sizeKB": 345,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848526-opw5",
+    "timestamp": "2026-04-05T04:04:08.526Z",
+    "type": "success",
+    "message": "[36/38] Classified → output-with-datetime: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).pdf",
+    "details": {
+      "pages": 17,
+      "sizeKB": 317,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848461-5yv3",
+    "timestamp": "2026-04-05T04:04:08.461Z",
+    "type": "success",
+    "message": "[35/38] Classified → output-with-datetime: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).pdf",
+    "details": {
+      "pages": 39,
+      "sizeKB": 433,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848316-ix2g",
+    "timestamp": "2026-04-05T04:04:08.316Z",
+    "type": "success",
+    "message": "[34/38] Classified → output-with-datetime: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).pdf",
+    "details": {
+      "pages": 12,
+      "sizeKB": 280,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848266-vcs0",
+    "timestamp": "2026-04-05T04:04:08.266Z",
+    "type": "success",
+    "message": "[33/38] Classified → output-with-datetime: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).pdf",
+    "details": {
+      "pages": 3,
+      "sizeKB": 205,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848255-9c30",
+    "timestamp": "2026-04-05T04:04:08.255Z",
+    "type": "success",
+    "message": "[32/38] Classified → output-with-datetime: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 6,
+      "sizeKB": 232,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848233-plb7",
+    "timestamp": "2026-04-05T04:04:08.233Z",
+    "type": "success",
+    "message": "[31/38] Classified → output-with-datetime: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).pdf",
+    "details": {
+      "pages": 7,
+      "sizeKB": 241,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848201-a57p",
+    "timestamp": "2026-04-05T04:04:08.201Z",
+    "type": "success",
+    "message": "[30/38] Classified → output-with-datetime: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 10,
+      "sizeKB": 259,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361848167-f7rk",
+    "timestamp": "2026-04-05T04:04:08.167Z",
+    "type": "success",
+    "message": "[29/38] Classified → output-with-datetime: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).pdf",
+    "details": {
+      "pages": 60,
+      "sizeKB": 629,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847965-8lmr",
+    "timestamp": "2026-04-05T04:04:07.965Z",
+    "type": "success",
+    "message": "[28/38] Classified → output-with-datetime: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 217,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847949-r7qg",
+    "timestamp": "2026-04-05T04:04:07.949Z",
+    "type": "success",
+    "message": "[27/38] Classified → output-with-datetime: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).pdf",
+    "details": {
+      "pages": 9,
+      "sizeKB": 261,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847916-4fro",
+    "timestamp": "2026-04-05T04:04:07.916Z",
+    "type": "success",
+    "message": "[26/38] Classified → output-with-datetime: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).pdf",
+    "details": {
+      "pages": 12,
+      "sizeKB": 280,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847866-5pv6",
+    "timestamp": "2026-04-05T04:04:07.866Z",
+    "type": "success",
+    "message": "[25/38] Classified → output-with-datetime: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).pdf",
+    "details": {
+      "pages": 5,
+      "sizeKB": 225,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847848-27cd",
+    "timestamp": "2026-04-05T04:04:07.848Z",
+    "type": "success",
+    "message": "[24/38] Classified → output-with-datetime: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "sizeKB": 233,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847831-sfgn",
+    "timestamp": "2026-04-05T04:04:07.831Z",
+    "type": "success",
+    "message": "[23/38] Classified → output-with-datetime: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).pdf",
+    "details": {
+      "pages": 26,
+      "sizeKB": 362,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847734-pbdf",
+    "timestamp": "2026-04-05T04:04:07.734Z",
+    "type": "success",
+    "message": "[22/38] Classified → output-with-datetime: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 214,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847720-1a5u",
+    "timestamp": "2026-04-05T04:04:07.720Z",
+    "type": "success",
+    "message": "[21/38] Classified → output-with-datetime: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 213,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847705-frap",
+    "timestamp": "2026-04-05T04:04:07.705Z",
+    "type": "success",
+    "message": "[20/38] Classified → output-with-datetime: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "sizeKB": 220,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847686-8qeg",
+    "timestamp": "2026-04-05T04:04:07.686Z",
+    "type": "success",
+    "message": "[19/38] Classified → output-with-datetime: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 217,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847668-whc2",
+    "timestamp": "2026-04-05T04:04:07.669Z",
+    "type": "success",
+    "message": "[18/38] Classified → output-with-datetime: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "sizeKB": 226,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847651-jjs0",
+    "timestamp": "2026-04-05T04:04:07.651Z",
+    "type": "success",
+    "message": "[17/38] Classified → output-with-datetime: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 216,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847634-37gk",
+    "timestamp": "2026-04-05T04:04:07.634Z",
+    "type": "success",
+    "message": "[16/38] Classified → output-with-datetime: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).pdf",
+    "details": {
+      "pages": 12,
+      "sizeKB": 281,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847587-xzr9",
+    "timestamp": "2026-04-05T04:04:07.587Z",
+    "type": "success",
+    "message": "[15/38] Classified → output-with-datetime: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "sizeKB": 223,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847570-wbvs",
+    "timestamp": "2026-04-05T04:04:07.570Z",
+    "type": "success",
+    "message": "[14/38] Classified → output-with-datetime: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).pdf",
+    "details": {
+      "pages": 66,
+      "sizeKB": 654,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847344-om30",
+    "timestamp": "2026-04-05T04:04:07.344Z",
+    "type": "success",
+    "message": "[13/38] Classified → output-with-datetime: In the Matter of the Principle of Gender Representation in the National Assembly and the Senate (Advisory Opinions Application 2of2012) 2012KESC5(KLR) (Constitutional and Human Rights) (11December2012) (Adv.pdf",
+    "details": {
+      "pages": 46,
+      "sizeKB": 470,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847189-jryi",
+    "timestamp": "2026-04-05T04:04:07.189Z",
+    "type": "success",
+    "message": "[12/38] Classified → output-with-datetime: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).pdf",
+    "details": {
+      "pages": 27,
+      "sizeKB": 357,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847095-u00z",
+    "timestamp": "2026-04-05T04:04:07.095Z",
+    "type": "success",
+    "message": "[11/38] Classified → output-with-datetime: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).pdf",
+    "details": {
+      "pages": 3,
+      "sizeKB": 208,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847081-3ueo",
+    "timestamp": "2026-04-05T04:04:07.081Z",
+    "type": "success",
+    "message": "[10/38] Classified → output-with-datetime: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).pdf",
+    "details": {
+      "pages": 14,
+      "sizeKB": 272,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847030-t1lb",
+    "timestamp": "2026-04-05T04:04:07.030Z",
+    "type": "success",
+    "message": "[9/38] Classified → output-with-datetime: In re the Commission for the Implementation of the Constitution under Article.pdf",
+    "details": {
+      "pages": 2,
+      "sizeKB": 196,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361847021-nsnb",
+    "timestamp": "2026-04-05T04:04:07.021Z",
+    "type": "success",
+    "message": "[8/38] Classified → output-with-datetime: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).pdf",
+    "details": {
+      "pages": 6,
+      "sizeKB": 239,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846996-day8",
+    "timestamp": "2026-04-05T04:04:06.996Z",
+    "type": "success",
+    "message": "[7/38] Classified → output-with-datetime: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).pdf",
+    "details": {
+      "pages": 10,
+      "sizeKB": 263,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846962-49l7",
+    "timestamp": "2026-04-05T04:04:06.962Z",
+    "type": "success",
+    "message": "[6/38] Classified → output-with-datetime: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).pdf",
+    "details": {
+      "pages": 20,
+      "sizeKB": 329,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846888-9gk3",
+    "timestamp": "2026-04-05T04:04:06.888Z",
+    "type": "success",
+    "message": "[5/38] Classified → output-with-datetime: Baraza v Tribunal Investigating the Conduct of Hon Deputy Chief Justice  VicePresident of the Supreme Court of the Republic of Kenya (Petition 7of2012) 2012KESC3(KLR) (17October2012) (Ruling).pdf",
+    "details": {
+      "pages": 3,
+      "sizeKB": 211,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846871-ehie",
+    "timestamp": "2026-04-05T04:04:06.871Z",
+    "type": "success",
+    "message": "[4/38] Classified → output-with-datetime: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).pdf",
+    "details": {
+      "pages": 2,
+      "sizeKB": 195,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846863-rvog",
+    "timestamp": "2026-04-05T04:04:06.863Z",
+    "type": "success",
+    "message": "[3/38] Classified → output-with-datetime: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).pdf",
+    "details": {
+      "pages": 11,
+      "sizeKB": 266,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846817-pu6s",
+    "timestamp": "2026-04-05T04:04:06.817Z",
+    "type": "success",
+    "message": "[2/38] Classified → output-with-datetime: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "pages": 5,
+      "sizeKB": 224,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846793-hzz7",
+    "timestamp": "2026-04-05T04:04:06.793Z",
+    "type": "success",
+    "message": "[1/38] Classified → output-with-datetime: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).pdf",
+    "details": {
+      "pages": 4,
+      "sizeKB": 218,
+      "isScanned": false
+    }
+  },
+  {
+    "id": "1775361846692-fw1y",
+    "timestamp": "2026-04-05T04:04:06.692Z",
+    "type": "info",
+    "message": "[38/38] Downloaded: Sum Model Industries Ltd v Industrial   Commercial Development Corporation (Civil Application 1of2011) 2011KESC5(KLR) (Civ) (2December2011) (Ruling).pdf",
+    "details": {
+      "sizeKB": 220
+    }
+  },
+  {
+    "id": "1775361846688-cs5z",
+    "timestamp": "2026-04-05T04:04:06.688Z",
+    "type": "info",
+    "message": "[37/38] Downloaded: Steyn v Ruscone (Application 4of2012) 2013KESC11(KLR) (23May2013) (Ruling) (with dissent  JB Ojwang  MK Ibrahim SCJJ).pdf",
+    "details": {
+      "sizeKB": 345
+    }
+  },
+  {
+    "id": "1775361846684-6sbd",
+    "timestamp": "2026-04-05T04:04:06.684Z",
+    "type": "info",
+    "message": "[36/38] Downloaded: SAJ v AOG  another ZOG (Interested Party) (Petition 1of2013) 2013KESC19(KLR) (1August2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 317
+    }
+  },
+  {
+    "id": "1775361846679-hq1c",
+    "timestamp": "2026-04-05T04:04:06.679Z",
+    "type": "info",
+    "message": "[35/38] Downloaded: Rai  3 others v Rai  5 others (Petition 4of2012) 2013KESC21(KLR) (20August2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 433
+    }
+  },
+  {
+    "id": "1775361846671-55kq",
+    "timestamp": "2026-04-05T04:04:06.671Z",
+    "type": "info",
+    "message": "[34/38] Downloaded: Rai  3 others v Rai  4 others (Petition 4of2012) 2013KESC20(KLR) (6February2013) (Ruling) (with dissent  MK Ibrahim SCJ).pdf",
+    "details": {
+      "sizeKB": 280
+    }
+  },
+  {
+    "id": "1775361846665-mccy",
+    "timestamp": "2026-04-05T04:04:06.665Z",
+    "type": "info",
+    "message": "[33/38] Downloaded: Otieno  2 others v Hassan  5 others (Petition 45of2013 (Consolidated)) 2013KESC17(KLR) (25March2013) (Order).pdf",
+    "details": {
+      "sizeKB": 205
+    }
+  },
+  {
+    "id": "1775361846661-f88o",
+    "timestamp": "2026-04-05T04:04:06.661Z",
+    "type": "info",
+    "message": "[32/38] Downloaded: Odinga v Independent Electoral and Boundaries Commission  3 others (Petition 5of2013) 2013KESC2(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 232
+    }
+  },
+  {
+    "id": "1775361846655-sdc0",
+    "timestamp": "2026-04-05T04:04:06.655Z",
+    "type": "info",
+    "message": "[31/38] Downloaded: Odinga v Independent Electoral  Boundaries Commission  3 others (Petition 5 43of2013 (Consolidated)) 2013KESC8(KLR) (24October2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 241
+    }
+  },
+  {
+    "id": "1775361846651-o6by",
+    "timestamp": "2026-04-05T04:04:06.651Z",
+    "type": "info",
+    "message": "[30/38] Downloaded: Odinga  7 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC1(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 259
+    }
+  },
+  {
+    "id": "1775361846647-72vg",
+    "timestamp": "2026-04-05T04:04:06.647Z",
+    "type": "info",
+    "message": "[29/38] Downloaded: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC6(KLR) (16April2013) (Judgment).pdf",
+    "details": {
+      "sizeKB": 629
+    }
+  },
+  {
+    "id": "1775361846641-sm0i",
+    "timestamp": "2026-04-05T04:04:06.641Z",
+    "type": "info",
+    "message": "[28/38] Downloaded: Odinga  5 others v Independent Electoral and Boundaries Commission  3 others (Petition 5 34of2013 (Consolidated)) 2013KESC5(KLR) (30March2013) (Order).pdf",
+    "details": {
+      "sizeKB": 217
+    }
+  },
+  {
+    "id": "1775361846637-17lk",
+    "timestamp": "2026-04-05T04:04:06.637Z",
+    "type": "info",
+    "message": "[27/38] Downloaded: Ngoge v Kaparo  5 others (Petition 2of2012) 2012KESC7(KLR) (4September2012) (Ruling).pdf",
+    "details": {
+      "sizeKB": 261
+    }
+  },
+  {
+    "id": "1775361846632-ystx",
+    "timestamp": "2026-04-05T04:04:06.632Z",
+    "type": "info",
+    "message": "[26/38] Downloaded: Nduttu  6000 others v Kenya Breweries Ltd  another (Petition 3of2012) 2012KESC9(KLR) (4October2012) (Ruling).pdf",
+    "details": {
+      "sizeKB": 280
+    }
+  },
+  {
+    "id": "1775361846629-xkso",
+    "timestamp": "2026-04-05T04:04:06.629Z",
+    "type": "info",
+    "message": "[25/38] Downloaded: Murgani v Kenya Revenue Authority (Petition 6of2012) 2012KESC10(KLR) (5July2012) (Directions) (1).pdf",
+    "details": {
+      "sizeKB": 225
+    }
+  },
+  {
+    "id": "1775361846624-ymqp",
+    "timestamp": "2026-04-05T04:04:06.624Z",
+    "type": "info",
+    "message": "[24/38] Downloaded: Mbugua  another v Attorney General  21 others (Petition 3of2013) 2013KESC10(KLR) (20March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 233
+    }
+  },
+  {
+    "id": "1775361846618-btt9",
+    "timestamp": "2026-04-05T04:04:06.618Z",
+    "type": "info",
+    "message": "[23/38] Downloaded: Macharia  another v Kenya Commercial Bank Ltd  2 others (Application 2of2011) 2012KESC8(KLR) (23October2012) (Ruling).pdf",
+    "details": {
+      "sizeKB": 362
+    }
+  },
+  {
+    "id": "1775361846613-mmmh",
+    "timestamp": "2026-04-05T04:04:06.613Z",
+    "type": "info",
+    "message": "[22/38] Downloaded: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC3(KLR) (Election Petitions) (20March2013) (Directions).pdf",
+    "details": {
+      "sizeKB": 214
+    }
+  },
+  {
+    "id": "1775361846608-wcv4",
+    "timestamp": "2026-04-05T04:04:06.608Z",
+    "type": "info",
+    "message": "[21/38] Downloaded: Kuria  5 others v Hassan  5 others (Petition 3 45of2013 (Consolidated)) 2013KESC26(KLR) (25March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 213
+    }
+  },
+  {
+    "id": "1775361846602-nvg0",
+    "timestamp": "2026-04-05T04:04:06.602Z",
+    "type": "info",
+    "message": "[20/38] Downloaded: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC24(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 220
+    }
+  },
+  {
+    "id": "1775361846598-xsx4",
+    "timestamp": "2026-04-05T04:04:06.598Z",
+    "type": "info",
+    "message": "[19/38] Downloaded: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC15(KLR) (Election Petitions) (25March2013) (Directions).pdf",
+    "details": {
+      "sizeKB": 217
+    }
+  },
+  {
+    "id": "1775361846594-evgf",
+    "timestamp": "2026-04-05T04:04:06.594Z",
+    "type": "info",
+    "message": "[18/38] Downloaded: Kuria  5 others v Hassan  4 others (Petition 3 45of2013 (Consolidated)) 2013KESC14(KLR) (25March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 226
+    }
+  },
+  {
+    "id": "1775361846589-mi8u",
+    "timestamp": "2026-04-05T04:04:06.589Z",
+    "type": "info",
+    "message": "[17/38] Downloaded: Koinange Investment  Development Limited v Ngethe (Civil Application 1of2012) 2013KESC22(KLR) (30January2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 216
+    }
+  },
+  {
+    "id": "1775361846585-xd2e",
+    "timestamp": "2026-04-05T04:04:06.585Z",
+    "type": "info",
+    "message": "[16/38] Downloaded: Kenya Section of the International Commission of Jurists v Attorney General  5 others (Criminal Appeal 1of2012) 2012KESC4(KLR) (15November2012) (Ruling).pdf",
+    "details": {
+      "sizeKB": 281
+    }
+  },
+  {
+    "id": "1775361846580-to6z",
+    "timestamp": "2026-04-05T04:04:06.580Z",
+    "type": "info",
+    "message": "[15/38] Downloaded: Jusab v Gamrai  another (Civil Appeal 1of2013) 2013KESC9(KLR) (23April2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 223
+    }
+  },
+  {
+    "id": "1775361846576-766o",
+    "timestamp": "2026-04-05T04:04:06.576Z",
+    "type": "info",
+    "message": "[14/38] Downloaded: In the Matter of the Speaker of the Senate  another (Advisory Opinion Reference 2of2013) 2013KESC7(KLR) (1November2013) (Advisory Opinion) (with dissent  N Ndungu SCJ).pdf",
+    "details": {
+      "sizeKB": 654
+    }
+  },
+  {
+    "id": "1775361846569-ry8x",
+    "timestamp": "2026-04-05T04:04:06.569Z",
+    "type": "info",
+    "message": "[13/38] Downloaded: In the Matter of the Principle of Gender Representation in the National Assembly and the Senate (Advisory Opinions Application 2of2012) 2012KESC5(KLR) (Constitutional and Human Rights) (11December2012) (Adv.pdf",
+    "details": {
+      "sizeKB": 470
+    }
+  },
+  {
+    "id": "1775361846561-fimo",
+    "timestamp": "2026-04-05T04:04:06.561Z",
+    "type": "info",
+    "message": "[12/38] Downloaded: In the Matter of the Interim Independent Electoral Commission (Applicant) (Constitutional Application 2of2011) 2011KESC1(KLR) (20December2011) (Ruling).pdf",
+    "details": {
+      "sizeKB": 357
+    }
+  },
+  {
+    "id": "1775361846554-afvu",
+    "timestamp": "2026-04-05T04:04:06.554Z",
+    "type": "info",
+    "message": "[11/38] Downloaded: In the Matter of Interim Independent Electoral Commission (Constitutional Application 2of2011) 2011KESC3(KLR) (15November2011) (Order).pdf",
+    "details": {
+      "sizeKB": 208
+    }
+  },
+  {
+    "id": "1775361846550-pm51",
+    "timestamp": "2026-04-05T04:04:06.550Z",
+    "type": "info",
+    "message": "[10/38] Downloaded: In the matter of Commission for the Implementation of the Constitution (Advisory Opinions Application 1of2011) 2011KESC4(KLR) (2November2011) (Ruling).pdf",
+    "details": {
+      "sizeKB": 272
+    }
+  },
+  {
+    "id": "1775361846546-x1c2",
+    "timestamp": "2026-04-05T04:04:06.546Z",
+    "type": "info",
+    "message": "[9/38] Downloaded: In re the Commission for the Implementation of the Constitution under Article.pdf",
+    "details": {
+      "sizeKB": 196
+    }
+  },
+  {
+    "id": "1775361846540-g06b",
+    "timestamp": "2026-04-05T04:04:06.540Z",
+    "type": "info",
+    "message": "[8/38] Downloaded: Erad Suppliers  General Contractors Ltd v National Cereals  Produce Board (Petition 5of2012) 2012KESC6(KLR) (12September2012) (Ruling).pdf",
+    "details": {
+      "sizeKB": 239
+    }
+  },
+  {
+    "id": "1775361846535-o6rp",
+    "timestamp": "2026-04-05T04:04:06.535Z",
+    "type": "info",
+    "message": "[7/38] Downloaded: Board of Governors Moi High School Kabarak  another v Bell  2 others (Petition 6  7of2013  Civil Application 12  13of2012 (Consolidated)) 2013KESC12(KLR) (8May2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 263
+    }
+  },
+  {
+    "id": "1775361846530-w6ao",
+    "timestamp": "2026-04-05T04:04:06.530Z",
+    "type": "info",
+    "message": "[6/38] Downloaded: Bell v Moi  another (Application 1of2013) 2013KESC23(KLR) (24October2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 329
+    }
+  },
+  {
+    "id": "1775361846524-bnml",
+    "timestamp": "2026-04-05T04:04:06.524Z",
+    "type": "info",
+    "message": "[5/38] Downloaded: Baraza v Tribunal Investigating the Conduct of Hon Deputy Chief Justice  VicePresident of the Supreme Court of the Republic of Kenya (Petition 7of2012) 2012KESC3(KLR) (17October2012) (Ruling).pdf",
+    "details": {
+      "sizeKB": 211
+    }
+  },
+  {
+    "id": "1775361846519-sw3l",
+    "timestamp": "2026-04-05T04:04:06.519Z",
+    "type": "info",
+    "message": "[4/38] Downloaded: Aluochier v Independent Electoral And Boundaries Commission (Iebc) And 19 Others (Petition 2of2013) 2013KESC18(KLR) (Civ) (27February2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 195
+    }
+  },
+  {
+    "id": "1775361846514-332y",
+    "timestamp": "2026-04-05T04:04:06.514Z",
+    "type": "info",
+    "message": "[3/38] Downloaded: Aluochier v Independent Electoral and Boundaries Commission (IEBC)  19 others (Petition 2of2013) 2013KESC13(KLR) (Election Petitions) (3May2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 266
+    }
+  },
+  {
+    "id": "1775361846509-0dpx",
+    "timestamp": "2026-04-05T04:04:06.509Z",
+    "type": "info",
+    "message": "[2/38] Downloaded: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC25(KLR) (26March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 224
+    }
+  },
+  {
+    "id": "1775361846503-c2iu",
+    "timestamp": "2026-04-05T04:04:06.503Z",
+    "type": "info",
+    "message": "[1/38] Downloaded: Aluochier v Independent Electoral and Boundaries Commission  19 others (Civil Application 2of2013) 2013KESC16(KLR) (Election Petitions) (25March2013) (Ruling).pdf",
+    "details": {
+      "sizeKB": 218
+    }
+  },
+  {
+    "id": "1775361846496-e2mn",
+    "timestamp": "2026-04-05T04:04:06.496Z",
+    "type": "info",
+    "message": "Found 38 PDF file(s) on SFTP",
+    "details": {
+      "count": 38
+    }
+  },
+  {
+    "id": "1775361846492-cz3z",
+    "timestamp": "2026-04-05T04:04:06.492Z",
+    "type": "success",
+    "message": "SFTP connected: localhost",
+    "details": {
+      "remotePath": "/daily/2026-04-05"
+    }
+  },
+  {
+    "id": "1775361846465-xr99",
+    "timestamp": "2026-04-05T04:04:06.465Z",
+    "type": "info",
+    "message": "SFTP download started",
+    "details": {
+      "date": "2026-04-05",
+      "host": "localhost"
+    }
+  },
+  {
+    "id": "1775361846163-n920",
+    "timestamp": "2026-04-05T04:04:06.163Z",
+    "type": "info",
+    "message": "Manual trigger: SFTP Download",
+    "details": {
+      "script": "sftp-download.js"
+    }
+  },
+  {
+    "id": "1775361839347-urrg",
+    "timestamp": "2026-04-05T04:03:59.347Z",
+    "type": "warning",
+    "message": "Pipeline re-run triggered — session reset",
+    "details": {}
+  }
+]
