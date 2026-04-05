@@ -1,0 +1,176 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Global Theme — Roboto + enhanced Bootstrap overrides
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Font ────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #f0f4f8;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Custom CSS variables ────────────────────────────────────────────────── */
+:root {
+  --primary:      #2563eb;
+  --primary-dark: #1d4ed8;
+  --success:      #059669;
+  --warning:      #d97706;
+  --danger:       #dc2626;
+  --info:         #0891b2;
+  --purple:       #7c3aed;
+  --text-muted:   #64748b;
+  --border:       #e2e8f0;
+  --bg-card:      #ffffff;
+  --bg-page:      #f0f4f8;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+  --shadow-md:    0 4px 12px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.05);
+  --radius:       10px;
+  --radius-sm:    6px;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* ── Bootstrap card overrides ────────────────────────────────────────────── */
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  background: var(--bg-card);
+}
+
+.card-header {
+  border-bottom: 1px solid var(--border);
+  border-radius: var(--radius) var(--radius) 0 0 !important;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #475569;
+  background: #f8fafc !important;
+}
+
+/* ── Navbar ──────────────────────────────────────────────────────────────── */
+.navbar.bg-primary {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 60%, #3b82f6 100%) !important;
+  box-shadow: 0 2px 12px rgba(37,99,235,.35);
+  padding: 0.55rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.2px;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.82rem;
+  border-radius: var(--radius-sm);
+  transition: all 0.18s ease;
+  letter-spacing: 0.01em;
+}
+
+.btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.btn:active { transform: translateY(0); }
+
+.btn-primary   { background: var(--primary);   border-color: var(--primary); }
+.btn-primary:hover { background: var(--primary-dark); border-color: var(--primary-dark); }
+
+/* ── Badges ──────────────────────────────────────────────────────────────── */
+.badge {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  font-size: 0.7rem;
+}
+
+/* ── Progress bar ────────────────────────────────────────────────────────── */
+.progress {
+  background: #e2e8f0;
+  border-radius: 99px;
+}
+
+.progress-bar {
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--primary), #60a5fa);
+  transition: width 0.6s ease;
+}
+
+.progress-bar.bg-success {
+  background: linear-gradient(90deg, var(--success), #34d399) !important;
+}
+
+/* ── Table ───────────────────────────────────────────────────────────────── */
+.table-sm td, .table-sm th { padding: 0.38rem 0.6rem; }
+
+.table > :not(caption) > * > th,
+.table > :not(caption) > * > td {
+  font-family: 'Roboto', sans-serif;
+}
+
+.table thead th {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+/* ── Alert ───────────────────────────────────────────────────────────────── */
+.alert {
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+}
+
+/* ── Code ────────────────────────────────────────────────────────────────── */
+code {
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+  font-size: 0.8em;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 1px 6px;
+  color: #1e40af;
+}
+
+/* ── Form controls ───────────────────────────────────────────────────────── */
+.form-control, .form-select {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.82rem;
+  border-radius: var(--radius-sm);
+  border-color: var(--border);
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37,99,235,.12);
+}
+
+/* ── Modal ───────────────────────────────────────────────────────────────── */
+.modal-content {
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 60px rgba(0,0,0,.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.25rem 0.75rem;
+}
+
+.modal-footer {
+  border-top: 1px solid var(--border);
+  padding: 0.75rem 1.25rem;
+}

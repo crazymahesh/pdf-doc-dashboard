@@ -1,0 +1,554 @@
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     PDF → DOC Conversion Monitoring Dashboard  ·  Bootstrap 5 + Font Awesome
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
+<!-- ── Toast ─────────────────────────────────────────────────────────────── -->
+@if (ds.triggerMessage(); as msg) {
+  <div class="toast-custom">
+    <div class="alert mb-0 d-flex align-items-center gap-2"
+         [class.alert-success]="msg.type === 'success'"
+         [class.alert-danger]="msg.type === 'error'"
+         role="alert">
+      <i class="fa-solid"
+         [class.fa-circle-check]="msg.type === 'success'"
+         [class.fa-circle-xmark]="msg.type === 'error'"></i>
+      {{ msg.text }}
+    </div>
+  </div>
+}
+
+<!-- ── Sidebar Overlay ─────────────────────────────────────────────────── -->
+<div class="sidebar-overlay" [class.active]="sidebarOpen()" (click)="closeSidebar()"></div>
+
+<!-- ── Sidebar ────────────────────────────────────────────────────────────── -->
+<aside class="sidebar" [class.sidebar-open]="sidebarOpen()">
+
+  <div class="sidebar-header">
+    <span class="sidebar-title">
+      <i class="fa-solid fa-circle-play me-2 text-primary"></i>Actions
+    </span>
+    <button class="sidebar-close" (click)="closeSidebar()" title="Close">
+      <i class="fa-solid fa-xmark fa-lg"></i>
+    </button>
+  </div>
+
+  <div class="sidebar-body">
+
+    <button class="btn btn-primary sidebar-btn"
+      (click)="confirm('Run SFTP Download & Classification for today?',() => ds.triggerDownload()); closeSidebar()">
+      <i class="fa-solid fa-cloud-arrow-down fa-lg fa-fw flex-shrink-0"></i>
+      <span class="btn-label">
+        <strong>1. SFTP Download</strong>
+        <small>Download &amp; classify today's PDFs</small>
+      </span>
+    </button>
+
+    <div class="btn btn-outline-warning text-dark sidebar-btn pe-none" style="cursor:default">
+      <i class="fa-solid fa-pen-to-square fa-lg fa-fw flex-shrink-0 text-warning"></i>
+      <span class="btn-label">
+        <strong>2. Manual: Convert + Fix</strong>
+        <small>Adobe Acrobat + Ligature fix → afterLigatureFix/</small>
+      </span>
+    </div>
+
+    <button class="btn btn-purple sidebar-btn"
+      (click)="confirm('Split regular PDFs into admin_1 / admin_2 / admin_3 by equal page count?',() => ds.triggerSplitAdmin()); closeSidebar()">
+      <i class="fa-solid fa-code-branch fa-lg fa-fw flex-shrink-0"></i>
+      <span class="btn-label">
+        <strong>2b. Split Admin Folders</strong>
+        <small>Distribute PDFs equally by page count</small>
+      </span>
+    </button>
+
+    <button class="btn btn-info text-white sidebar-btn"
+      (click)="confirm('Start watching the afterLigatureFix folder for placed files?',() => ds.triggerWatchAfterLigature()); closeSidebar()">
+      <i class="fa-solid fa-eye fa-lg fa-fw flex-shrink-0"></i>
+      <span class="btn-label">
+        <strong>3. Start Watcher</strong>
+        <small>Auto-detects files in afterLigatureFix/</small>
+      </span>
+    </button>
+
+    <button class="btn btn-success sidebar-btn"
+      (click)="confirm('Move all files from afterLigatureFix to final_conversion?',() => ds.triggerMoveToFinal()); closeSidebar()">
+      <i class="fa-solid fa-folder-open fa-lg fa-fw flex-shrink-0"></i>
+      <span class="btn-label">
+        <strong>4. Move to Final</strong>
+        <small>After ligature fix is complete</small>
+      </span>
+    </button>
+
+    <button class="btn btn-secondary sidebar-btn"
+      (click)="confirm('Re-send email notification to stakeholders?',() => ds.triggerNotification()); closeSidebar()">
+      <i class="fa-solid fa-envelope fa-lg fa-fw flex-shrink-0"></i>
+      <span class="btn-label">
+        <strong>5. Send Notification</strong>
+        <small>Email summary to stakeholders</small>
+      </span>
+    </button>
+
+    <button class="btn btn-outline-secondary sidebar-btn"
+      (click)="ds.downloadReport(); closeSidebar()">
+      <i class="fa-solid fa-file-excel fa-lg fa-fw flex-shrink-0 text-success"></i>
+      <span class="btn-label">
+        <strong>Excel Report</strong>
+        <small>Download PDF log spreadsheet</small>
+      </span>
+    </button>
+
+    <button class="btn btn-outline-danger sidebar-btn"
+      (click)="confirm('Re-run Pipeline',() => ds.triggerRerun(),
+        'This will reset ALL today\'s progress (stages, file records, logs). Files on disk are NOT deleted.',true); closeSidebar()">
+      <i class="fa-solid fa-rotate-left fa-lg fa-fw flex-shrink-0"></i>
+      <span class="btn-label">
+        <strong>Re-run</strong>
+        <small>Reset &amp; start from scratch</small>
+      </span>
+    </button>
+
+    <div class="alert alert-warning sidebar-manual-info d-flex gap-2 mb-0">
+      <i class="fa-solid fa-circle-info flex-shrink-0 text-warning mt-1"></i>
+      <div>
+        <strong>Manual Workflow:</strong>
+        After SFTP download, open <strong>Adobe Acrobat Pro</strong> and convert files in
+        <code>output-with-datetime/</code> to DOC. Apply your <strong>VBA ligature-replacement macro</strong>,
+        then place the fixed DOCX/DOC files into <code>afterLigatureFix/</code>.
+        The watcher (Step 3) auto-detects placed files. When done, click <strong>Move to Final</strong>.
+      </div>
+    </div>
+
+  </div>
+</aside>
+
+<!-- ── Navbar ─────────────────────────────────────────────────────────────── -->
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0">
+      <i class="fa-solid fa-file-arrow-right me-2"></i>PDF → DOC Conversion Dashboard
+    </span>
+    <div class="d-flex align-items-center gap-3">
+      <span class="badge bg-white bg-opacity-15 text-white fw-normal" style="font-size:0.78rem;color:#039add !important">
+        <i class="fa-regular fa-calendar me-1"></i>{{ ds.today() }}
+      </span>
+      @if (ds.isConnected()) {
+        <span class="d-flex align-items-center text-white gap-1">
+          <span class="conn-dot conn-live"></span><small>Live</small>
+        </span>
+      } @else {
+        <span class="d-flex align-items-center text-warning gap-1">
+          <span class="conn-dot conn-offline"></span><small>Offline</small>
+        </span>
+      }
+      @if (ds.lastUpdated()) {
+        <small class="text-white-50">{{ ds.lastUpdated() | date:'HH:mm:ss' }}</small>
+      }
+      <button class="btn btn-sm btn-outline-light d-flex align-items-center gap-1 actionMenuBtn"
+              (click)="toggleSidebar()">
+        <i class="fa-solid fa-circle-play"></i><span>Actions</span>
+      </button>
+      <button class="btn btn-sm btn-outline-light d-flex align-items-center gap-1"
+        (click)="confirm('Re-run Pipeline',() => ds.triggerRerun(),
+          'This will reset ALL today\'s progress (stages, file records, logs). Files on disk are NOT deleted.',true)">
+        <i class="fa-solid fa-rotate-left"></i><span>Re-run</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Loading ───────────────────────────────────────────────────────────── -->
+@if (ds.isLoading()) {
+  <div class="d-flex flex-column align-items-center justify-content-center" style="min-height:55vh">
+    <div class="spinner-border text-primary mb-3" role="status"></div>
+    <p class="text-muted">Connecting to API on port 3000…</p>
+  </div>
+} @else {
+
+<div class="main-content-wrapper" [class.sidebar-pushed]="sidebarOpen()">
+<div class="container-fluid py-3 px-3">
+
+  <!-- ── Overall Progress ──────────────────────────────────────────────────── -->
+  <div class="card mb-3">
+    <div class="card-body py-2 px-3">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <small class="fw-semibold text-uppercase" style="color:#64748b;font-size:0.7rem;letter-spacing:.06em">
+          <i class="fa-solid fa-chart-line me-1"></i>Today's Pipeline Progress
+        </small>
+        <span class="fw-bold"
+              [class.text-success]="overallProgress()===100"
+              [class.text-primary]="overallProgress()<100"
+              style="font-size:0.9rem">{{ overallProgress() }}%</span>
+      </div>
+      <div class="progress" style="height:8px">
+        <div class="progress-bar progress-bar-striped progress-bar-animated"
+             [class.bg-success]="overallProgress()===100"
+             [style.width.%]="overallProgress()"
+             role="progressbar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Stats Cards ───────────────────────────────────────────────────────── -->
+  <div class="row g-3 mb-3">
+
+    <div class="col-6 col-md-3">
+      <div class="card stat-card-custom stat-blue h-100">
+        <div class="card-body py-3">
+          <div class="d-flex align-items-start justify-content-between mb-1">
+            <div>
+              <div class="fs-1 fw-bold text-primary lh-1">{{ ds.stats().totalPdfs }}</div>
+              <div class="fw-600 mt-1" style="font-size:0.82rem;color:#1e293b">Total PDFs</div>
+              <div style="font-size:0.7rem;color:#64748b" class="mt-1">
+                {{ ds.stats().regularPdfs }} digital &middot; {{ ds.stats().scannedPdfs }} scanned
+              </div>
+              @if (ds.stats().corruptedPdfs > 0) {
+                <div class="mt-1">
+                  <span class="badge bg-danger" style="font-size:0.65rem">
+                    <i class="fa-solid fa-triangle-exclamation me-1"></i>{{ ds.stats().corruptedPdfs }} corrupted
+                  </span>
+                </div>
+              }
+            </div>
+            <div class="stat-icon-bg stat-icon-blue">
+              <i class="fa-solid fa-file-pdf fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3">
+      <div class="card stat-card-custom stat-green h-100">
+        <div class="card-body py-3">
+          <div class="d-flex align-items-start justify-content-between mb-1">
+            <div>
+              <div class="fs-1 fw-bold text-success lh-1">{{ ds.stats().totalPages }}</div>
+              <div class="fw-600 mt-1" style="font-size:0.82rem;color:#1e293b">Total Pages</div>
+              <div style="font-size:0.7rem;color:#64748b" class="mt-1">across all downloaded PDFs</div>
+            </div>
+            <div class="stat-icon-bg stat-icon-green">
+              <i class="fa-solid fa-book-open fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3">
+      <div class="card stat-card-custom stat-cyan h-100">
+        <div class="card-body py-3">
+          <div class="d-flex align-items-start justify-content-between mb-1">
+            <div>
+              <div class="fs-1 fw-bold lh-1" style="color:#0891b2">{{ ds.stats().afterLigatureFixCount }}</div>
+              <div class="fw-600 mt-1" style="font-size:0.82rem;color:#1e293b">After Ligature Fix</div>
+              <div style="font-size:0.7rem;color:#64748b" class="mt-1">files placed in folder</div>
+            </div>
+            <div class="stat-icon-bg stat-icon-cyan">
+              <i class="fa-solid fa-pen-to-square fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-3">
+      <div class="card stat-card-custom stat-purple h-100">
+        <div class="card-body py-3">
+          <div class="d-flex align-items-start justify-content-between mb-1">
+            <div>
+              <div class="fs-1 fw-bold lh-1" style="color:#7c3aed">{{ ds.stats().finalCount }}</div>
+              <div class="fw-600 mt-1" style="font-size:0.82rem;color:#1e293b">In Final Folder</div>
+              <div style="font-size:0.7rem;color:#64748b" class="mt-1">ready for delivery</div>
+            </div>
+            <div class="stat-icon-bg stat-icon-purple">
+              <i class="fa-solid fa-circle-check fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Pipeline Stages ──────────────────────────────────────────────────── -->
+  <div class="card mb-3">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <span><i class="fa-solid fa-diagram-project me-2 text-primary"></i>Pipeline Stages</span>
+      <button class="btn btn-sm btn-outline-danger d-flex align-items-center gap-1"
+        (click)="confirm('Re-run Pipeline',() => ds.triggerRerun(),
+          'This will reset ALL today\'s progress (stages, file records, logs). Files on disk are NOT deleted.',true)">
+        <i class="fa-solid fa-rotate-left"></i> Re-run
+      </button>
+    </div>
+    <div class="card-body pb-3 pt-3">
+      <div class="pipeline-flow">
+        @for (step of pipelineSteps; track step.key; let last = $last) {
+          @let stage = getStage(step.key);
+          <div class="pipeline-step" [ngClass]="stageClass(stage?.status)">
+
+            <!-- Running overlay -->
+            <div class="step-loader">
+              <div class="step-spinner"></div>
+              <span class="step-spinner-label">Processing…</span>
+            </div>
+
+            <!-- Icon -->
+            <div class="step-icon-wrap">
+              <i class="fa-solid {{ step.icon }} {{ step.color }}"></i>
+            </div>
+
+            <!-- Content -->
+            <div class="step-body">
+              <div class="step-label">
+                {{ step.label }}
+                @if (step.isManual) { <span class="manual-badge">MANUAL</span> }
+              </div>
+              <div class="mt-1">
+                <span class="badge rounded-pill" [ngClass]="{
+                  'bg-success':   stage?.status === 'completed',
+                  'bg-primary':   stage?.status === 'running',
+                  'bg-danger':    stage?.status === 'failed',
+                  'bg-secondary': !stage?.status || stage?.status === 'pending'
+                }">{{ stage?.status ?? 'pending' }}</span>
+              </div>
+              @if (stage?.message) {
+                <div class="step-message mt-1">{{ stage?.message }}</div>
+              }
+              @if (stage?.endTime) {
+                <div class="step-time"><i class="fa-solid fa-check fa-xs me-1"></i>{{ formatTime(stage?.endTime ?? null) }}</div>
+              } @else if (stage?.startTime) {
+                <div class="step-time"><i class="fa-solid fa-play fa-xs me-1"></i>{{ formatTime(stage?.startTime ?? null) }}</div>
+              }
+            </div>
+          </div>
+          @if (!last) {
+            <div class="pipeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+          }
+        }
+      </div>
+    </div>
+  </div>
+
+  <!-- ── File Table ─────────────────────────────────────────────────────────── -->
+  <div class="card mb-3">
+    <div class="card-header">
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <span class="me-auto">
+          <i class="fa-solid fa-table me-1 text-primary"></i>
+          Files <span class="badge bg-secondary ms-1">{{ filteredFiles().length }}</span>
+        </span>
+        <input class="form-control form-control-sm" style="max-width:220px"
+               type="text" placeholder="Search filename…"
+               [value]="fileFilter()"
+               (input)="fileFilter.set($any($event.target).value)" />
+        <select class="form-select form-select-sm" style="max-width:150px"
+                [value]="filterCategory()"
+                (change)="filterCategory.set($any($event.target).value)">
+          <option value="all">All types</option>
+          <option value="regular">Digital PDFs</option>
+          <option value="scanned">Scanned PDFs</option>
+        </select>
+      </div>
+    </div>
+    <div class="card-body p-0">
+      @if (filteredFiles().length === 0) {
+        <div class="text-center text-muted py-5">
+          <i class="fa-solid fa-inbox fa-3x d-block mb-3 opacity-25"></i>
+          @if (ds.stats().totalPdfs === 0) {
+            No files yet — run <strong>SFTP Download</strong> to start.
+          } @else {
+            No files match the current filter.
+          }
+        </div>
+      } @else {
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered table-sm file-table mb-0">
+            <thead class="table-dark">
+              <tr>
+                <th>#</th>
+                <th>File Name</th>
+                <th>Size</th>
+                <th class="text-center">Pages</th>
+                <th class="text-center">Scanned</th>
+                <th>Downloaded At</th>
+                <th class="text-center">Admin Folder</th>
+                <th class="text-center">After Ligature Fix</th>
+                <th class="text-center">Final</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (file of filteredFiles(); track file.name; let i = $index) {
+                <tr [class.row-scanned]="file.isScanned">
+                  <td class="text-muted small">{{ i + 1 }}</td>
+                  <td class="col-name" [title]="file.name">
+                    <i class="fa-regular fa-file-pdf me-1 text-danger opacity-50"></i>{{ file.name }}
+                  </td>
+                  <td class="small">{{ formatSize(file.sizeKB) }}</td>
+                  <td class="text-center small">{{ file.pages }}</td>
+                  <td class="text-center">
+                    <span class="badge"
+                          [class.bg-warning]="file.isScanned" [class.text-dark]="file.isScanned"
+                          [class.bg-success]="!file.isScanned">
+                      {{ file.isScanned ? 'Yes' : 'No' }}
+                    </span>
+                  </td>
+                  <td class="text-muted small">{{ formatTime(file.downloadedAt ?? null) }}</td>
+                  <td class="text-center">
+                    @if (file.adminFolder) {
+                      <span class="badge rounded-pill bg-purple">{{ file.adminFolder }}</span>
+                    } @else if (file.isScanned) {
+                      <span class="text-muted small">—</span>
+                    } @else {
+                      <span class="badge rounded-pill bg-secondary">pending</span>
+                    }
+                  </td>
+                  <td class="text-center">
+                    <span class="badge rounded-pill" [ngClass]="{
+                      'bg-success':   file.afterLigatureFixStatus === 'completed',
+                      'bg-primary':   file.afterLigatureFixStatus === 'running',
+                      'bg-danger':    file.afterLigatureFixStatus === 'failed',
+                      'bg-secondary': !file.afterLigatureFixStatus || file.afterLigatureFixStatus === 'pending'
+                    }">{{ file.afterLigatureFixStatus || 'pending' }}</span>
+                    @if (file.afterLigatureFixAt) {
+                      <div class="text-muted" style="font-size:0.65rem">{{ formatTime(file.afterLigatureFixAt || null) }}</div>
+                    }
+                  </td>
+                  <td class="text-center">
+                    <span class="badge rounded-pill" [ngClass]="{
+                      'bg-success':   file.finalStatus === 'completed',
+                      'bg-danger':    file.finalStatus === 'failed',
+                      'bg-secondary': !file.finalStatus || file.finalStatus === 'pending'
+                    }">{{ file.finalStatus || 'pending' }}</span>
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    </div>
+  </div>
+
+  <!-- ── Folder Status ─────────────────────────────────────────────────────── -->
+  @if (ds.folderStatus(); as folderSt) {
+    <div class="card mb-3">
+      <div class="card-header">
+        <i class="fa-solid fa-hard-drive me-2 text-primary"></i>Local Folder Status
+      </div>
+      <div class="card-body">
+        <div class="row g-2">
+          @for (entry of [
+            { key: 'outputWithDatetime', label: 'output-with-datetime', icon: 'fa-folder-open',          desc: 'Digital PDFs for Adobe', danger: false },
+            { key: 'scannedPdf',         label: 'Scanned PDF',          icon: 'fa-file-image',            desc: 'Image-only PDFs',        danger: false },
+            { key: 'corruptedPdf',       label: 'Corrupted PDF',        icon: 'fa-file-circle-xmark',     desc: 'Unreadable / errored',   danger: true  },
+            { key: 'admin1',             label: 'admin_1',              icon: 'fa-code-branch',           desc: 'Split group 1',          danger: false },
+            { key: 'admin2',             label: 'admin_2',              icon: 'fa-code-branch',           desc: 'Split group 2',          danger: false },
+            { key: 'admin3',             label: 'admin_3',              icon: 'fa-code-branch',           desc: 'Split group 3',          danger: false },
+            { key: 'afterLigatureFix',   label: 'afterLigatureFix',     icon: 'fa-pen-to-square',         desc: 'Fixed DOCX files',       danger: false },
+            { key: 'finalConversion',    label: 'final_conversion',     icon: 'fa-circle-check',          desc: 'Ready for delivery',     danger: false },
+            { key: 'reports',            label: 'reports',              icon: 'fa-file-excel',            desc: 'Excel logs',             danger: false }
+          ]; track entry.key) {
+            @let folder = $any(folderSt)[entry.key];
+            <div class="col-6 col-md-4 col-lg">
+              <div class="folder-card"
+                   [class.exists]="folder?.exists"
+                   [class.missing]="!folder?.exists"
+                   [class.folder-danger]="entry.danger && folder?.exists && folder?.fileCount > 0">
+                <i class="fa-solid {{ entry.icon }} fa-xl d-block mb-2"
+                   [class.text-danger]="entry.danger && folder?.exists && folder?.fileCount > 0"
+                   [class.text-success]="!entry.danger && folder?.exists"
+                   [class.text-muted]="!folder?.exists"></i>
+                <div class="fw-semibold" style="font-size:0.78rem">{{ entry.label }}</div>
+                <div class="text-muted" style="font-size:0.7rem">{{ entry.desc }}</div>
+                <div class="mt-2">
+                  @if (folder?.exists) {
+                    <span class="badge"
+                          [class.bg-danger]="entry.danger && folder.fileCount > 0"
+                          [class.bg-success]="!entry.danger || folder.fileCount === 0">
+                      {{ folder.fileCount }} file(s)
+                    </span>
+                  } @else {
+                    <span class="badge bg-secondary bg-opacity-50">not created</span>
+                  }
+                </div>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  }
+
+  <!-- ── Activity Log ───────────────────────────────────────────────────────── -->
+  <div class="card mb-3">
+    <div class="card-header">
+      <i class="fa-solid fa-book-open me-2 text-primary"></i>Activity Log
+    </div>
+    <div class="card-body p-0">
+      @if (ds.logs().length === 0) {
+        <p class="text-center text-muted py-4 mb-0">No activity yet.</p>
+      } @else {
+        <div class="log-list px-2 py-1" style="max-height:360px;overflow-y:auto">
+          @for (log of ds.logs().slice(0, 80); track log.id) {
+            <div class="log-entry" [ngClass]="logClass(log.type)">
+              <span class="log-time">{{ formatDate(log.timestamp) }}</span>
+              <span class="log-type-icon">
+                @switch (log.type) {
+                  @case ('success') { <i class="fa-solid fa-circle-check"></i> }
+                  @case ('warning') { <i class="fa-solid fa-triangle-exclamation"></i> }
+                  @case ('error')   { <i class="fa-solid fa-circle-xmark"></i> }
+                  @default          { <i class="fa-solid fa-circle-info"></i> }
+                }
+              </span>
+              <span class="log-msg">{{ log.message }}</span>
+            </div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+
+</div>
+</div>
+} <!-- end @else (not loading) -->
+
+<!-- ── Confirmation Modal ────────────────────────────────────────────────── -->
+@if (pendingAction(); as action) {
+  <div class="modal d-block" tabindex="-1" style="background:rgba(15,23,42,0.6)">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" [class.border-danger]="action.danger">
+          <h5 class="modal-title d-flex align-items-center gap-2">
+            @if (action.danger) {
+              <i class="fa-solid fa-triangle-exclamation text-danger"></i>
+            } @else {
+              <i class="fa-solid fa-circle-question text-warning"></i>
+            }
+            {{ action.label }}
+          </h5>
+          <button type="button" class="btn-close" (click)="cancelAction()"></button>
+        </div>
+        <div class="modal-body">
+          @if (action.detail) {
+            <p class="mb-0 text-muted" style="font-size:0.88rem">{{ action.detail }}</p>
+          } @else {
+            <p class="mb-0">Are you sure you want to proceed?</p>
+          }
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline-secondary" (click)="cancelAction()">
+            <i class="fa-solid fa-xmark me-1"></i>Cancel
+          </button>
+          <button class="btn"
+                  [class.btn-danger]="action.danger"
+                  [class.btn-primary]="!action.danger"
+                  (click)="executeAction()">
+            <i class="fa-solid me-1"
+               [class.fa-rotate-left]="action.danger"
+               [class.fa-check]="!action.danger"></i>
+            {{ action.danger ? 'Yes, Reset & Re-run' : 'Confirm' }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+}
